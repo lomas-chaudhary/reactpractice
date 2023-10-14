@@ -27,6 +27,7 @@ class UserGreeting extends Component {
     //     )
     // }
 
+
     // let message
     // if(this.state.isLoggedIn){
     //     message=<div>Welcome Lomas</div>
@@ -37,14 +38,15 @@ class UserGreeting extends Component {
     // }
     // return <div>{message}</div>
 
-    // return(
-    //     this.state.isLoggedIn?
-    //     <div>Welcome Lomas</div>:
-    //     <div>Welcome Guest</div>
-    // )
+
+    return(
+        this.state.isLoggedIn?
+        <div>Welcome Lomas</div>:
+        <div>Welcome Guest</div>
+    )
 
 
-   return this.state.isLoggedIn && <div>Welcome Lomas</div>
+//    return this.state.isLoggedIn && <div>Welcome Lomas</div>
 
   }
 }

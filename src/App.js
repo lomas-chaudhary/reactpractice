@@ -11,13 +11,22 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList';
+import PersonList from './components/PersonList'
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form';
+import ParentComponent1 from './components/ParentComponent1';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <h1 className='error'>Error</h1> */}
+        {/* <h1 className={styles.success}>Success</h1> */}
         {/* <Greet></Greet>
         <Welcome></Welcome> */}
 
@@ -49,15 +58,26 @@ function App() {
          {/* <EventBind></EventBind> */}
          {/* <ParentComponent></ParentComponent> */}
 
-         <UserGreeting></UserGreeting>
+         {/* <UserGreeting></UserGreeting> */}
 
+         {/* <NameList></NameList> */}
+
+         {/* <PersonList></PersonList> */}
+         {/* <Stylesheet primary={true}></Stylesheet> */}
+         {/* <Inline></Inline> */}
+
+
+
+         {/* <Form></Form> */}
+
+         <ParentComponent1></ParentComponent1>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {/* Learn React */}
         </a>
       </header>
     </div>
